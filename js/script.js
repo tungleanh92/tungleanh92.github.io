@@ -43,7 +43,7 @@ var cong = '<i class="fa fa-plus" aria-hidden="true"></i>';
 var tru = '<i class="fa fa-minus" aria-hidden="true"></i>';
 $(function() {
 
-var ceck = true;
+var check = true;
 $('#icon').click(function()
 {
     
