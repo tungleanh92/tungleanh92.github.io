@@ -1,0 +1,17 @@
+.service {
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+
+.service img {
+	margin: 20px auto;
+	opacity: 0.5;
+}
+
+.service img:hover {
+	opacity: 1;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+

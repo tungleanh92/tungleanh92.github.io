@@ -1,0 +1,375 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.res {
+    width: 100%;
+}
+
+.marginin {
+	padding: 0px 3%;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul {
+	display: inline-block;
+}
+
+#contact i {
+	margin: 0 10px;
+}
+
+#contact ul:nth-child(2) {
+	text-align: right;
+}
+
+#contact li {
+	font-size: 13px;
+}
+
+#contact li:hover {
+	color: #70C4EB;
+	cursor: pointer;
+}
+
+nav {
+	background-color: #F8F8F8;
+}
+
+nav img {
+	display: inline-block;
+	padding-top:5px;
+	padding: 20px 0;
+
+}
+
+nav p {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#logo, #menu {
+	display: inline-block;
+}
+
+
+#wraper{
+    width: 100%;
+    background: #F8F8F8;
+    height: 70px;
+}
+#logo{
+    width: 40%;
+    height: 45px;
+    font-size: 25px;
+    float: left;
+    line-height: 45px;
+}
+#menu{
+    float: left;
+}
+#menu ul{
+    width: 100%;
+    height: 45px;
+    list-style: none;
+}
+#menu ul li {
+    float: left;
+    line-height: 25px;
+    padding: 0px 15px;
+    font-size: 20px;
+    position: relative;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menu ul li ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 700%;         
+}
+#menu ul li ul li{
+    clear: both;
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+#menu ul li:hover ul{
+    display: block;
+    background-color: #F8F8F8;
+}
+#menu ul li:hover ul li:hover{
+    color: #3eace4;
+}
+#icon{
+    font-size: 30px;
+    line-height: 45px;
+    display: none;
+}
+#plus{
+    font-size: 12px;
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    #icon{
+        display: block;
+        float: right;
+        margin-right: 30px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    #logo{
+        width: 80%;
+        position: relative;
+    }
+    #menu ul li {
+    	line-height: 45px;
+	}
+    #menu ul li:hover ul{
+        display: none;
+    }
+    #menu>ul>li:hover
+    {
+
+    }
+    #menu ul li:hover ul li:hover{
+    color: black;
+}
+    #plus{
+        display: block;
+        line-height: 45px;
+        float: right;
+        cursor: pointer;
+        margin-right: 10px;
+        color: white;
+    }
+    #menu{
+        /*display: none;*/
+        background: #3eace4;
+        width: 60%;
+        position: absolute;
+        top: 64px;
+        left: -240px;
+        clear: both;
+        border-top: 1px solid white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #menu ul li{
+        clear: both;
+        text-align: left;
+        vertical-align: middle; 
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid white;
+    }
+    #menu ul li a{
+        color:white;  
+    }
+}
+
+.describe p {
+	color:white;
+}
+
+.start {
+	margin: 0 0 200px 3%;
+	background-color: #3eace4;
+	color: white;
+	padding: 15px 30px;
+	border: thick;
+	border-radius: 5px;
+}
+
+.start:hover {
+	background-color: white;
+	color: #3eace4;
+	transition-duration: 0.3s;
+}
+
+footer {
+	background-color: #1f1f1f;
+	padding: 50px 0;
+}
+
+h5 {
+	color: white;
+}
+
+footer li {
+	color: #686868;
+}
+
+footer p {
+	color: #686868;
+}
+
+input {
+	background-color: #222222;
+	border-radius: 10px;
+	border:thick;
+	padding: 5px 10px;
+}
+
+.getStart {
+	background-color: #3eace4;
+	border-radius: 10px;
+	border:thick;
+	padding: 5px 10px;
+	color: white;
+	margin-top: 12px;
+}
+
+.getStart:hover {
+	background-color: #1F1E1F;
+	border: 1px solid #3eace4;
+	color: #3eace4;
+	transition-duration: 0.5s;
+}
+
+.cp span {
+	color: #3eace4;
+}
+
+.cp {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.iconFoot {
+	float: right;
+}
+
+.iconFoot li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.iconFoot li:hover {
+	cursor: pointer;
+	color: #3eace4;
+}
+
+@media only screen and (max-width: 767px) {
+	#contact i {
+		margin: 0 3px;
+	}
+	.describe {
+		width: 300px;
+	}
+    #banner {
+    background-image: url("../images/banner/home.jpg");
+    height: 600px;
+}
+    .describe {
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.start {
+    margin: 0 0 100px 3%;
+    background-color: #3eace4;
+    color: white;
+    padding: 15px 30px;
+    border: thick;
+    border-radius: 5px;
+}
+    #banner {
+        height: 500px;
+    }   
+    
+    #menu {
+        width: 240px;
+        top: 70px;
+    }
+    #mail li:nth-child(2) {
+        display: none;
+    }
+    #mail {
+        width: 150px;
+    }
+    #menu ul li a {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.describe {
+		width: 500px;
+	}
+    #banner {
+    background-image: url("../images/banner/home.jpg");
+    height: 600px;
+}
+    .describe {
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.start {
+    margin: 0 0 100px 3%;
+    background-color: #3eace4;
+    color: white;
+    padding: 15px 30px;
+    border: thick;
+    border-radius: 5px;
+}
+    #banner {
+        height: 450px;
+    }
+    #menu {
+        width: 240px;
+        top: 70px;
+    }
+    #menu ul li a {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #effect {
+        border-radius: 10px;
+    }
+	#menu ul li:hover>a {
+    	cursor: pointer;
+    	color: #3eace4;
+	}
+	#menu {
+		float: right;
+	}
+	#menu ul li {
+		display: inline-block;
+		margin: 25px 0 0 0;
+		font-size: 15px	
+	}
+	.describe {
+		width: 600px;
+	}
+    #banner {
+    background-image: url("../images/banner/home.jpg");
+}
+.describe {
+    color:white;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+    .start {
+    margin: 0 0 200px 3%;
+    background-color: #3eace4;
+    color: white;
+    padding: 15px 30px;
+    border: thick;
+    border-radius: 5px;
+}
+
+}

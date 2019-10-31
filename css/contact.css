@@ -1,0 +1,34 @@
+#map > div {
+	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+	iframe {
+	margin: 50px 0;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	iframe {
+	margin: 50px 0;
+}
+}
+
+
+@media only screen and (min-width: 991px)  {
+	iframe {
+	margin: 100px 0;
+}
+}
+
+#submit {
+	float: right;
+}
+
+.address {
+	margin-bottom: 100px;
+}
+
+.fill {
+	margin-top: -50px;
+}
